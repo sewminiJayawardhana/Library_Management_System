@@ -1,16 +1,17 @@
-/* General body styling (already present) */
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* AddBook Page Styling */
+.add-book-page {
+  background-image: url('./images/book.jpg'); /* Replace with the correct path to your image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh; /* Ensures the page takes the full viewport height */
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative; /* Allows layering */
+  overflow: hidden;
 }
 
 
@@ -23,6 +24,8 @@ code {
   border-radius: 8px;
   margin: 20px auto;
   max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -51,6 +54,22 @@ code {
   text-align: center;
 }
 
+/* ViewBook Page Styling */
+.view-book-page {
+  background-image: url('./images/5925.jpg'); /* Replace with the correct path to your image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh; /* Ensures the page takes the full viewport height */
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align content at the top */
+  padding-top: 50px; /* Optional: Add space at the top */
+  position: relative; /* Allows layering */
+  overflow: hidden; /* Prevents scrolling if the image overflows */
+}
+
+
 /* ViewBook Component Styling */
 .view-book-container {
   padding: 20px;
@@ -59,6 +78,7 @@ code {
   border-radius: 8px;
   margin: 20px auto;
   max-width: 800px;
+  width: 100%;
 }
 
 .view-book-container table {
@@ -82,6 +102,21 @@ code {
   text-align: center;
 }
 
+/* UpdateStatus Page Styling */
+.update-status-page {
+  background-image: url('./images/2147863546.jpg'); /* Replace with the correct path to your image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh; /* Ensures the page takes the full viewport height */
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items:center; /* Align content at the top */
+  padding-top: 50px; /* Optional: Add space at the top */
+  position: relative; /* Allows layering */
+  overflow: hidden; /* Prevents scrolling if the image overflows */
+}
+
 
 /* UpdateStatus Component Styling */
 .update-status-container {
@@ -91,6 +126,7 @@ code {
   border-radius: 8px;
   margin: 20px auto;
   max-width: 600px;
+  width: 100%;
 }
 
 .update-status-container h2 {

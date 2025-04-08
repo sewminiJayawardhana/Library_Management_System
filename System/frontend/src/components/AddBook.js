@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+
 const AddBook = () => {
     const [title, setTitle] = useState("");
     const [author, setAuthor] = useState("");
@@ -13,6 +14,8 @@ const AddBook = () => {
     };
 
     return (
+        <div className="add-book-page">
+
         <div className="add-book-container">
             <h2>Add New Book</h2>
             <form onSubmit={handleSubmit}>
@@ -21,6 +24,8 @@ const AddBook = () => {
                 <button type="submit">Add Book</button>
             </form>
         </div>
+        </div>
+        
     );
 };
 

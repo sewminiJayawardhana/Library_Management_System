@@ -11,6 +11,7 @@ const BookList = () => {
     }, []);
 
     return (
+        <div className="view-book-page">
         <div className="view-book-container">
             <h2>Library Books</h2>
             <table border="1">
@@ -35,6 +36,7 @@ const BookList = () => {
                     ))}
                 </tbody>
             </table>
+        </div>
         </div>
     );
 };

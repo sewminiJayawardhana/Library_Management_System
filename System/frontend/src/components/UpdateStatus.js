@@ -13,6 +13,7 @@ const UpdateStatus = () => {
     };
 
     return (
+        <div className="update-status-page">
         <div className="update-status-container">
             <h2>Update Book Status</h2>
             <form onSubmit={handleUpdate}>
@@ -24,6 +25,7 @@ const UpdateStatus = () => {
                 </select>
                 <button type="submit">Update</button>
             </form>
+        </div>
         </div>
     );
 };
