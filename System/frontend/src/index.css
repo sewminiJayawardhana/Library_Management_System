@@ -36,6 +36,7 @@
   margin: 10px 0;
   padding: 10px;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .add-book-container button {
@@ -134,6 +135,7 @@
   text-align: center;
 }
 
+.update-status-container input,
 .update-status-container select,
 .update-status-container button {
   display: block;
@@ -141,6 +143,8 @@
   margin: 10px 0;
   padding: 10px;
   font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box; 
 }
 
 .update-status-container button {
