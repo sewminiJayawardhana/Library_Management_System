@@ -89,13 +89,13 @@ Library Management System
 
 ## 🖼️ Screenshots
 ### 1. **Add Book Page**
-![Add Book Page](./frontend/src/images/add-book-page.PNG)
+![Add Book Page](./Screenshots/add-book-page.PNG)
 
 ### 2. **View Books Page**
-![View Books Page](./frontend/src/images/view-book-page.PNG)
+![View Books Page](./Screenshots/view-book-page.PNG)
 
 ### 3. **Update Book Status Page**
-![Update Book Status Page](./frontend/src/images/update-status-page.PNG)
+![Update Book Status Page](./Screenshots/update-status-page.PNG)
 
 ---
 
