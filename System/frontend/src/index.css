@@ -31,6 +31,7 @@
 
 .add-book-container input,
 .add-book-container button {
+  border-radius: 5px;
   display: block;
   width: 100%;
   margin: 10px 0;
@@ -57,7 +58,7 @@
 
 /* ViewBook Page Styling */
 .view-book-page {
-  background-image: url('./images/5925.jpg'); /* Replace with the correct path to your image */
+  background-image: url('./images/librry\ with\ gir.jpg'); /* Replace with the correct path to your image */
   background-size: cover; /* Ensures the image covers the entire page */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */

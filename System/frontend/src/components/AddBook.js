@@ -9,7 +9,11 @@ const AddBook = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.post("http://localhost:5000/books", { title, author })
-            .then(() => alert("Book added successfully!"))
+        .then(() => {
+            alert("Book added successfully!");
+            setTitle(""); // Clear the Book Title field
+            setAuthor(""); // Clear the Author field
+        })
             .catch(error => console.log(error));
     };
 
