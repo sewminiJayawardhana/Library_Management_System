@@ -7,6 +7,7 @@
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   min-height: 100vh; /* Ensures the page takes the full viewport height */
+  width: 100%;
   display: flex; /* Flexbox for centering content */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -63,10 +64,12 @@
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   min-height: 100vh; /* Ensures the page takes the full viewport height */
+  width: 100%;
   display: flex; /* Flexbox for centering content */
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align content at the top */
-  padding-top: 50px; /* Optional: Add space at the top */
+  padding-top: 120px; /* Optional: Add space at the top */
+  padding-bottom: -10px;
   position: relative; /* Allows layering */
   overflow: hidden; /* Prevents scrolling if the image overflows */
 }

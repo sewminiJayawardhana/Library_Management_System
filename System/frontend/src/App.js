@@ -12,8 +12,8 @@ const App = () => {
             <header className="app-header">
             <h1 className="header-title">E-book System</h1>
                 <nav>
-                    <Link to="/">View Books</Link> | 
-                    <Link to="/add">Add Book</Link> | 
+                    <Link to="/">View</Link> | 
+                    <Link to="/add">Add</Link> | 
                     <Link to="/update">Update Status</Link>
                 </nav>
             </header>
@@ -22,6 +22,9 @@ const App = () => {
                     <Route path="/add" element={<AddBook />} />
                     <Route path="/update" element={<UpdateStatus />} />
                 </Routes>
+                <footer className="app-footer">
+                    <p>© 2025 Library Management System. All rights reserved.</p>
+                </footer>
             </div>
         </Router>
     );

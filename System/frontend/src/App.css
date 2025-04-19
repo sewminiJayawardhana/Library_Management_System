@@ -8,6 +8,16 @@
     background-color: #0056b3;
     color: white;
     padding: 10px 20px;
+    height: 65px;
+    top: 0;
+    position: fixed;
+    width:98%;
+    z-index: 1000;
+}
+
+body {
+    margin: 0;
+    padding-top: 0px; /* Matches the height of the header to prevent overlap */
 }
 
 .header-title {
@@ -29,4 +39,20 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/* Footer Styling */
+.app-footer {
+    background-color: #181919; /* Same as header background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.app-footer p {
+    margin: 0;
 }
